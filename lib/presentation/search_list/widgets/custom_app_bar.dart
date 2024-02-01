@@ -30,7 +30,7 @@ class CustomAppBar extends StatelessWidget {
                 SizedBox(
                   width: size.width * 0.02,
                 ),
-                Icon(
+                const Icon(
                   Icons.arrow_forward,
                   color: Colors.black,
                 ),

@@ -64,9 +64,9 @@ class CustomLocationWidget2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
         width: size.width * 0.75,
-        // color: Colors.blue,
+       
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

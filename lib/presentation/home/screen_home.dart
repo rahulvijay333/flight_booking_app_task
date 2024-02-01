@@ -1,7 +1,6 @@
-import 'package:flight_booking/core/colors.dart';
 import 'package:flight_booking/presentation/home/widgets/trip1.dart';
 import 'package:flight_booking/presentation/home/widgets/trip2.dart';
-import 'package:flight_booking/presentation/search_list/results_screen.dart';
+import 'package:flight_booking/presentation/status/screen_status.dart';
 import 'package:flutter/material.dart';
 
 class ScreenHome extends StatelessWidget {
@@ -25,7 +24,6 @@ class ScreenHome extends StatelessWidget {
         centerTitle: true,
       ),
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
             padding: const EdgeInsets.only(left: 15.0, top: 15, bottom: 40),
@@ -70,7 +68,7 @@ class ScreenHome extends StatelessWidget {
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) {
-                      return const ScreenResults();
+                      return const ScreenStatus();
                     },
                   ));
                 },
